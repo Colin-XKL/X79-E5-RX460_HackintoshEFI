@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACPI</key>
+	<dict>
+		<key>SSDT</key>
+		<dict>
+			<key>Generate</key>
+			<dict>
+				<key>APSN</key>
+				<false/>
+				<key>PluginType</key>
+				<true/>
+				<key>PStates</key>
+				<false/>
+				<key>APLF</key>
+				<false/>
+				<key>CStates</key>
+				<false/>
+			</dict>
+			<key>NoOemTableId</key>
+			<false/>
+			<key>DropOem</key>
+			<false/>
+			<key>NoDynamicExtract</key>
+			<false/>
+		</dict>
+		<key>DisableASPM</key>
+		<true/>
+		<key>smartUPS</key>
+		<false/>
+		<key>DSDT</key>
+		<dict>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Find</key>
+					<data>RUhDMQ==</data>
+					<key>Replace</key>
+					<data>RUgwMQ==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>EHC1 to EH01</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>RUhDMg==</data>
+					<key>Replace</key>
+					<data>RUgwMg==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>EHC2 to EH02</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>RVVTQg==</data>
+					<key>Replace</key>
+					<data>RUgwMQ==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>EUSB to EH01</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>VVNCRQ==</data>
+					<key>Replace</key>
+					<data>RUgwMg==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>USBE to EH02</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>oAqTU1RBUwE=</data>
+					<key>Replace</key>
+					<data>oAqRCv8L//8=</data>
+					<key>Disabled</key>
+					<true/>
+					<key>Comment</key>
+					<string>RTC fix</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>cA1DUFVTQ0swAENVVTA=</data>
+					<key>Replace</key>
+					<data>AAAAAAAAAAAAAAAAAAA=</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>CUU0</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>cA1DUFVTQ0sxAENVVTE=</data>
+					<key>Replace</key>
+					<data>AAAAAAAAAAAAAAAAAAA=</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>CUU1</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>cA1DUFVTQ0syAENVVTI=</data>
+					<key>Replace</key>
+					<data>AAAAAAAAAAAAAAAAAAA=</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>CUU2</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>cA1DUFVTQ0szAENVVTM=</data>
+					<key>Replace</key>
+					<data>AAAAAAAAAAAAAAAAAAA=</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>CUU3</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>RUMwXw==</data>
+					<key>Replace</key>
+					<data>RUNfXw==</data>
+					<key>Disabled</key>
+					<true/>
+					<key>Comment</key>
+					<string>EC0 to EC</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>SF9FQw==</data>
+					<key>Replace</key>
+					<data>RUNfXw==</data>
+					<key>Disabled</key>
+					<true/>
+					<key>Comment</key>
+					<string>H_EC to EC</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>RUNEVg==</data>
+					<key>Replace</key>
+					<data>RUNfXw==</data>
+					<key>Disabled</key>
+					<true/>
+					<key>Comment</key>
+					<string>ECDV to EC</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>QdAMCQ==</data>
+					<key>Replace</key>
+					<data>QdD//w==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>PNP0C09 to PNPFFFF</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>QVpBTA==</data>
+					<key>Replace</key>
+					<data>SERFRg==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>change AZAL to HDEF</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>SERBUw==</data>
+					<key>Replace</key>
+					<data>SERFRg==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>change HDAS to HDEF</string>
+				</dict>
+			</array>
+			<key>Fixes</key>
+			<dict>
+				<key>FixHPET</key>
+				<true/>
+				<key>FixHDA</key>
+				<false/>
+				<key>FixRTC</key>
+				<true/>
+				<key>FixTMR</key>
+				<true/>
+				<key>FixShutdown</key>
+				<true/>
+				<key>FixIPIC</key>
+				<true/>
+				<key>FixMutex</key>
+				<false/>
+				<key>FixDarwin7</key>
+				<false/>
+				<key>DeleteUnused</key>
+				<false/>
+				<key>FixRegions</key>
+				<true/>
+			</dict>
+			<key>Name</key>
+			<string>DSDT.aml</string>
+			<key>DropOEM_DSM</key>
+			<false/>
+			<key>Debug</key>
+			<false/>
+			<key>ReuseFFFF</key>
+			<false/>
+		</dict>
+		<key>AutoMerge</key>
+		<false/>
+		<key>HaltEnabler</key>
+		<true/>
+		<key>FixHeaders</key>
+		<false/>
+		<key>FixMCFG</key>
+		<false/>
+	</dict>
+	<key>Boot</key>
+	<dict>
+		<key>NeverHibernate</key>
+		<true/>
+		<key>Legacy</key>
+		<string>PBR</string>
+		<key>DefaultLoader</key>
+		<string>boot.efi</string>
+		<key>NeverDoRecovery</key>
+		<true/>
+		<key>Debug</key>
+		<false/>
+		<key>Arguments</key>
+		<string>npci=0x2000 dart=0 -no_compat_check -v brcmfx-driver=1</string>
+		<key>CustomLogo</key>
+		<false/>
+		<key>Secure</key>
+		<false/>
+		<key>Timeout</key>
+		<integer>3</integer>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
+	</dict>
+	<key>GUI</key>
+	<dict>
+		<key>Theme</key>
+		<string>Catalina</string>
+		<key>Mouse</key>
+		<dict>
+			<key>Mirror</key>
+			<false/>
+			<key>Speed</key>
+			<integer>8</integer>
+			<key>DoubleClick</key>
+			<integer>500</integer>
+			<key>Enabled</key>
+			<true/>
+		</dict>
+		<key>ShowOptimus</key>
+		<true/>
+		<key>KbdPrevLang</key>
+		<true/>
+		<key>Hide</key>
+		<array>
+			<string>Preboot</string>
+		</array>
+		<key>Scan</key>
+		<dict>
+			<key>Entries</key>
+			<false/>
+			<key>Tool</key>
+			<false/>
+			<key>Linux</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>UseARTFrequency</key>
+		<false/>
+	</dict>
+	<key>Devices</key>
+	<dict>
+		<key>LANInjection</key>
+		<false/>
+		<key>Audio</key>
+		<dict>
+			<key>ResetHDA</key>
+			<true/>
+			<key>AFGLowPowerState</key>
+			<true/>
+			<key>Inject</key>
+			<string>No</string>
+		</dict>
+		<key>InjectHDMI</key>
+		<false/>
+		<key>UseIntelHDMI</key>
+		<false/>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0xFF)/Pci(0xC,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,12,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,4</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>C600/X79 series chipset PCI Express Root Port 5</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xF,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,15,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1E,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,30,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>82801 PCI Bridge</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,4/0,0</string>
+				<key>device_type</key>
+				<string>Ethernet controller</string>
+				<key>model</key>
+				<string>RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xA,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,10,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 1</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x10,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,16,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 0</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xD,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,13,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x10,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,16,4</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 2</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,0</string>
+				<key>device_type</key>
+				<string>ISA bridge</string>
+				<key>model</key>
+				<string>C600/X79 series chipset LPC Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,0,0</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 DMI2</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x10,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,16,6</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 2</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xC,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,12,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x13,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,19,1</string>
+				<key>device_type</key>
+				<string>Performance counters</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xF,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,15,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,1,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 1a</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xA,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,10,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 0</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x5,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,5,4</string>
+				<key>device_type</key>
+				<string>PIC</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 IOAPIC</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xD,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,13,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x2)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>device_type</key>
+				<string>Airport Extreme</string>
+				<key>model</key>
+				<string>BCM43224 802.11a/b/g/n</string>
+				<key>name</key>
+				<string>Airport</string>
+				<key>AAPL,slot-name</key>
+				<string>WLAN</string>
+				<key>compatible</key>
+				<string>pci14e4,43a3</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x13,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,19,5</string>
+				<key>device_type</key>
+				<string>Performance counters</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xB,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,11,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 2a</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xE,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,14,1</string>
+				<key>device_type</key>
+				<string>Performance counters</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,22,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 System Address Decoder</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xC,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,12,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,2</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>C600/X79 series chipset PCI Express Root Port 3</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0/0,1</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>Baffin HDMI/DP Audio [Radeon RX 550 640SP / RX 560/560X]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>SMBus</string>
+				<key>model</key>
+				<string>C600/X79 series chipset SMBus Host Controller</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xF,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,15,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 RAS Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,3,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 3a</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x5,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,5,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 IIO RAS</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x11,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,17,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>C600/X79 series chipset PCI Express Virtual Root Port</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x10,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,16,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 1</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xD,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,13,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x16,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,22,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Broadcast Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,1,0/0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>???</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xF,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,15,5</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x10,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,16,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 1</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x8,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,8,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xE,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,14,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xA,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,10,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 3</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x10,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,16,5</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 3</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x9,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,9,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xF,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,15,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Target Address/Thermal Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,2</string>
+				<key>device_type</key>
+				<string>SATA controller</string>
+				<key>model</key>
+				<string>C600/X79 series chipset 6-Port SATA AHCI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x5,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,5,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 VTd/Memory Map/Misc</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xB,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,11,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,1,1</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 1b</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x13,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,19,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x10,0x7)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,16,7</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 3</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1A,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,26,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>C600/X79 series chipset USB2 Enhanced Host Controller #2</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xF,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,15,4</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,0</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>C600/X79 series chipset High Definition Audio Controller</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x13,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,19,4</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0xA,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,10,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 2</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>C600/X79 series chipset PCI Express Root Port 1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0/0,0</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>model</key>
+				<string>Radeon RX 460/560D</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x16,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,22,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Broadcast Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>C600/X79 series chipset USB2 Enhanced Host Controller #1</string>
+			</dict>
+			<key>PciRoot(0xFF)/Pci(0x10,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@255,16,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 0</string>
+			</dict>
+		</dict>
+		<key>InjectLAN</key>
+		<false/>
+		<key>USB</key>
+		<dict>
+			<key>FixOwnership</key>
+			<true/>
+			<key>AddClockID</key>
+			<true/>
+			<key>Inject</key>
+			<true/>
+			<key>HighCurrent</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>Graphics</key>
+	<dict>
+		<key>EDID</key>
+		<dict>
+			<key>Inject</key>
+			<false/>
+		</dict>
+		<key>NvidiaSingle</key>
+		<false/>
+		<key>Inject</key>
+		<dict>
+			<key>ATI</key>
+			<false/>
+			<key>Intel</key>
+			<false/>
+			<key>NVidia</key>
+			<false/>
+		</dict>
+		<key>ig-platform-id</key>
+		<string>0x00000001</string>
+		<key>RadeonDeInit</key>
+		<false/>
+	</dict>
+	<key>KernelAndKextPatches</key>
+	<dict>
+		<key>AppleRTC</key>
+		<true/>
+		<key>KernelPm</key>
+		<true/>
+		<key>KernelLapic</key>
+		<true/>
+		<key>PanicNoKextDump</key>
+		<true/>
+		<key>KernelXCPM</key>
+		<false/>
+		<key>Debug</key>
+		<false/>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Find</key>
+				<data>g72M/v//EA==</data>
+				<key>Comment</key>
+				<string>USB port limit patch</string>
+				<key>Disabled</key>
+				<false/>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCIPCI</string>
+				<key>Replace</key>
+				<data>g72M/v//Gw==</data>
+				<key>MatchOS</key>
+				<string>10.11.x</string>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>g710////EA==</data>
+				<key>Comment</key>
+				<string>USB port limit patch</string>
+				<key>Disabled</key>
+				<false/>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCIPCI</string>
+				<key>Replace</key>
+				<data>g710////Gw==</data>
+				<key>MatchOS</key>
+				<string>10.12.x</string>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>g32IDw+DpwQAAA==</data>
+				<key>Comment</key>
+				<string>USB port limit patch by PMHeart</string>
+				<key>Disabled</key>
+				<false/>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g32ID5CQkJCQkA==</data>
+				<key>MatchOS</key>
+				<string>10.13.x</string>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>g/sPDw==</data>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>g/s/Dw==</data>
+				<key>Disabled</key>
+				<false/>
+				<key>Comment</key>
+				<string>USB Port limit patch 10.14.x 10.15.x #1 modify by DalianSky(credits PMheart)</string>
+				<key>InfoPlistPatch</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>g+MP0w==</data>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>g+M/0w==</data>
+				<key>Disabled</key>
+				<false/>
+				<key>Comment</key>
+				<string>USB port limit patch 10.14.x modify by DalianSky(credit PMHeart)</string>
+				<key>InfoPlistPatch</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>g/kPDw==</data>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g/k/Dw==</data>
+				<key>Disabled</key>
+				<false/>
+				<key>Comment</key>
+				<string>USB Port limit patch 10.15.x #1 modify by DalianSky</string>
+				<key>InfoPlistPatch</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>g/sPDw==</data>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g/s/Dw==</data>
+				<key>Disabled</key>
+				<false/>
+				<key>Comment</key>
+				<string>USB Port limit patch 10.14.x modify by DalianSky(credits PMheart)</string>
+				<key>InfoPlistPatch</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>g/8PDw==</data>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g/8/Dw==</data>
+				<key>Disabled</key>
+				<false/>
+				<key>Comment</key>
+				<string>USB Port limit patch 10.14.x modify by DalianSky(credits PMheart)</string>
+				<key>InfoPlistPatch</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DellSMBIOSPatch</key>
+		<false/>
+		<key>AppleIntelCPUPM</key>
+		<true/>
+		<key>KernelCpu</key>
+		<true/>
+	</dict>
+	<key>RtVariables</key>
+	<dict>
+		<key>ROM</key>
+		<data>eX+f7m5A</data>
+		<key>BooterConfig</key>
+		<string>0x28</string>
+		<key>CsrActiveConfig</key>
+		<string>0x67</string>
+	</dict>
+	<key>SMBIOS</key>
+	<dict>
+		<key>FirmwareFeatures</key>
+		<string>0xE00DE137</string>
+		<key>Board-ID</key>
+		<string>Mac-FC02E91DDD3FA6A4</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x0D</string>
+		<key>BiosVersion</key>
+		<string>IM131.88Z.F000.B00.2006101655</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisAssetTag</key>
+		<string>iMac-Aluminum</string>
+		<key>PlatformFeature</key>
+		<string>0x01</string>
+		<key>Family</key>
+		<string>iMac</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02219100GUF2FRJA</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>ProductName</key>
+		<string>iMac13,2</string>
+		<key>SmUUID</key>
+		<string>E915461B-4C15-4658-9E75-6AA136BDCBCF</string>
+		<key>Mobile</key>
+		<false/>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>EfiVersion</key>
+		<string>292.0.0.0.0</string>
+		<key>SerialNumber</key>
+		<string>C02HPAYYDNCW</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>BiosReleaseDate</key>
+		<string>06/10/2012</string>
+		<key>Version</key>
+		<string>1.0</string>
+	</dict>
+	<key>SystemParameters</key>
+	<dict>
+		<key>InjectSystemID</key>
+		<true/>
+		<key>CustomUUID</key>
+		<string>55ADE930-5FDF-5EC4-8429-15640684C489</string>
+		<key>InjectKexts</key>
+		<string>Yes</string>
+	</dict>
+</dict>
+</plist>
