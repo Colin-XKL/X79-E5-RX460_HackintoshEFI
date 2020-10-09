@@ -164,26 +164,6 @@
 					<key>Comment</key>
 					<string>PNP0C09 to PNPFFFF</string>
 				</dict>
-				<dict>
-					<key>Find</key>
-					<data>QVpBTA==</data>
-					<key>Replace</key>
-					<data>SERFRg==</data>
-					<key>Disabled</key>
-					<false/>
-					<key>Comment</key>
-					<string>change AZAL to HDEF</string>
-				</dict>
-				<dict>
-					<key>Find</key>
-					<data>SERBUw==</data>
-					<key>Replace</key>
-					<data>SERFRg==</data>
-					<key>Disabled</key>
-					<false/>
-					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
-				</dict>
 			</array>
 			<key>Fixes</key>
 			<dict>
@@ -239,13 +219,13 @@
 		<key>Debug</key>
 		<false/>
 		<key>Arguments</key>
-		<string>npci=0x2000 dart=0 -no_compat_check -v brcmfx-driver=1</string>
+		<string>npci=0x2000 dart=0 -no_compat_check brcmfx-driver=1</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>2</integer>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 	</dict>
@@ -271,15 +251,14 @@
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
+			<string>Recovery</string>
 		</array>
 		<key>Scan</key>
 		<dict>
-			<key>Entries</key>
-			<false/>
 			<key>Tool</key>
-			<false/>
-			<key>Linux</key>
 			<true/>
+			<key>Legacy</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>CPU</key>
@@ -291,10 +270,12 @@
 	<dict>
 		<key>LANInjection</key>
 		<false/>
+		<key>Inject</key>
+		<false/>
 		<key>Audio</key>
 		<dict>
 			<key>ResetHDA</key>
-			<true/>
+			<false/>
 			<key>AFGLowPowerState</key>
 			<true/>
 			<key>Inject</key>
@@ -888,7 +869,7 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<false/>
+			<true/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
